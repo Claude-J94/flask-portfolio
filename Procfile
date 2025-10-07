@@ -1,2 +1,4 @@
-web: gunicorn portfolio.app:app
+gunicorn portfolio.app:app
+
+
 
