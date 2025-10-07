@@ -30,7 +30,7 @@ def resume():
 
 @app.route('/resume/download')
 def download_resume():
-    return redirect(url_for('static', filename='resume/CV_Stephane_Atontsa.pdf'))
+    return redirect(url_for('static', filename='resume/Claude_julie_CV.pdf'))
 
 @app.route('/contact', methods=['GET', 'POST'])
 def contact():
